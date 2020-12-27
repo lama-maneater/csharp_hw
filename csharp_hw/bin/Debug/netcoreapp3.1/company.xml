@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>The Company !!!</Name>
+  <Subdivisions>
+    <Subdivision>
+      <Name>sd2_name</Name>
+      <Subdivisions>
+        <Subdivision>
+          <Name>sd1_name</Name>
+          <Subdivisions />
+          <Employees>
+            <Employee>
+              <Name>emp1_name</Name>
+              <SurName>emp1_surname</SurName>
+              <Position>emp1_pos</Position>
+              <Birthday>01.01.2021</Birthday>
+              <IsBoss>true</IsBoss>
+            </Employee>
+          </Employees>
+        </Subdivision>
+      </Subdivisions>
+      <Employees>
+        <Employee>
+          <Name>em2_name</Name>
+          <SurName>emp2_surname</SurName>
+          <Position>emp2_pos</Position>
+          <Birthday>02.01.2021</Birthday>
+          <IsBoss>false</IsBoss>
+        </Employee>
+      </Employees>
+    </Subdivision>
+  </Subdivisions>
+</Company>
